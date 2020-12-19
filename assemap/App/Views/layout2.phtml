@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://kit.fontawesome.com/e38e8345ea.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.3.0/animate.css"/>
+    
+    <link rel="stylesheet" href="../css/headerAndFooter.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/secundario.css">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicons/favicon-16x16.png">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js""></script>
+     <!--[if IE]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
+      <script>
+          $(function(){
+      new WOW().init(); 
+    });
+      </script>
+
+    <title>Assemap - Marcas e Patentes</title>
+
+</head>
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-md">
+            <a class="navbar-brand" href="/"><img src="../img/logo2.png" alt=""></a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-target">
+                <span class="navbar-toggler-icon" style="color: red;">
+                    <i class="fas fa-bars" style="color:#000000; font-size:28px;"></i>
+                </span>
+            </button>
+            <div class="collapse navbar-collapse" id="nav-target">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/#servicos">Serviços</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/#empresa">A Empresa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/#formulario">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    
+    <?= $this->content() ?>
+
+
+    <!-- Footer -->
+    <footer class="page-footer font-small bg-assemap">
+    <!-- Footer Links -->
+        <div class="container-fluid text-center text-md-left">
+            <!-- Grid row -->
+            <div class="row">
+            <!-- Grid column -->
+                <div class="col-md-5 mb-3 text-center">
+                    <img src="../img/assemap.png" alt="" class="bg-white" style="border-radius: 10px">
+                </div>
+
+                <div class="col-md-7">
+                    <div class="row">
+                        <div class="col-md-4 mb-md-0 mb-3 mx-auto">
+                        <!-- Links -->
+                            <h5 class="text-uppercase">Serviços</h5>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="/" class="gpc">Consulta de marcas</a>
+                                </li>
+                                <li>
+                                    <a href="/registro_marcas" class="gpc">Registro de Marcas</a>
+                                </li>
+                                <li>
+                                    <a href="/registro_patentes"  class="gpc">Registro de Patentes</a>
+                                </li>
+                                <li>
+                                    <a href="/direito_autoral"  class="gpc">Direito Autoral</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- Grid column -->
+                        <div class="col-md-4 mb-md-0 mb-3 mx-auto">
+                            <!-- Links -->
+                            <h5 class="text-uppercase">Atendimento</h5>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="/#contato" class="gpc">Telefone</a>
+                                </li>
+                                <li>
+                                    <a href="/#contato" class="gpc">Fale conosco</a>
+                                </li>
+                                <li>
+                                    <a href="/#contato" class="gpc">Whatsapp</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- Grid column -->
+                        <div class="col-md-4 mb-md-0 mb-3 mx-auto sobre">
+                            <!-- Links -->
+                            <h5 class="text-uppercase">Sobre nós</h5>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="/#empresa" class="gpc">Nossa proposta</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                
+                    <!-- Copyright -->
+                    <div class="footer-copyright text-center py-3">© 2020 Copyright:
+                        <a class="gpc" href="https://mdbootstrap.com/"> GPC Softwares</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>

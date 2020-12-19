@@ -1,0 +1,521 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100%;
+}
+
+.c-loader {
+    display: inline-block;
+    position: relative;
+    bottom: -7px;
+    left: 10px;
+    animation: is-rotating 1s infinite;
+    border: 6px solid #e5e5e5;
+    border-radius: 50%;
+    border-top-color: #007bff;
+    height: 38px;
+    width: 38px;
+  }
+  
+@keyframes is-rotating {
+    to {
+        transform: rotate(1turn);
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 767px) {
+
+    /* Conteúdo */
+
+    .margem-acima{
+        margin-top: 20px;
+    }
+
+    .parallax{
+        position: relative;
+        height: 400px;
+        width: 100%;
+        background-image: url(../img/banner.jpg);
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+
+    .parallax-text{
+        position: absolute;
+        top: 40%;
+        text-align: center;
+        width: 100%;
+    }
+
+    .parallax-text a{
+        font-size: 0.8em;
+    }
+
+    .parallax-text h3{
+        text-shadow: 2px 2px black;
+        font-size: 1.3em;
+    }
+
+    .containertop{
+        margin-top: 5%;
+        position: relative;
+        margin-bottom: 80px;
+    }
+
+    /* Conteúdo primário */
+
+    #apresentacao{
+        margin-bottom: 10px;
+        z-index: -1;
+        margin: 10px 15px;
+    }
+
+    #texto-apresentacao{
+        text-align: center;
+        margin-top: 3%;
+        margin-left: 3%;
+    }
+
+    .barra{
+        color: #d61911;
+        margin-top: 4%;
+    }
+
+    /* Conteúdo secundário */
+
+    #servicos{
+        height: 120%;
+        text-align: center;
+        background-image: url(../img/escritorio.jpg);
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    .icon{
+        margin-top: 10px;
+        font-size: 3.5em;
+    }
+
+    .titulo{
+        width: 100%;
+    }
+
+
+    .items{
+        border-bottom: 1px solid rgb(196, 196, 196);
+        padding: 1% 3%;
+        background-color: rgba(255, 255, 255, 0.945);
+    }
+
+
+    .direita{
+        border-right: none;
+    }
+
+    .somos{
+        margin: 10px 15px;
+        height: 100%;
+    }
+
+    .central{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* Contato */
+
+    .btn-whats{
+        width: 300px;
+    }
+
+    /*  Terciário  */
+
+    .texto{
+        text-align: center;
+        margin-top: 3%;
+    }
+
+    a.fale, h4.fale{
+        text-decoration: none;
+        color: black;
+        font-size: 12pt !important;
+        font-weight: 300;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    /* Conteúdo */
+
+    .margem-acima{
+        margin-top: 20px;
+    }
+
+    .parallax{
+        position: relative;
+        height: 600px;
+        width: 100%;
+        background-image: url(../img/banner.jpg);
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+
+    .parallax-text{
+        position: absolute;
+        top: 50%;
+        text-align: center;
+        width: 100%;
+    }
+
+    .parallax-text h3{
+    text-shadow: 2px 2px black;
+    }
+
+    .containertop{
+        margin-top: 5%;
+        position: relative;
+        margin-bottom: 80px;
+    }
+
+    /* Conteúdo primário */
+
+    #apresentacao{
+        margin-bottom: 10px;
+        z-index: -1;
+    }
+
+    #texto-apresentacao{
+        text-align: center;
+        margin-top: 3%;
+        margin-left: 3%;
+    }
+
+    #img-apresentacao{
+        position: relative;
+        top: 28%;
+        left: 0;
+    }
+
+    .barra{
+        color: #d61911;
+        margin-top: 4%;
+    }
+
+    /* Conteúdo secundário */
+
+    #servicos{
+        height: 120%;
+        text-align: center;
+        background-image: url(../img/escritorio.jpg);
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    .icon{
+        margin-top: 10px;
+        font-size: 4em;
+    }
+
+    .titulo{
+        width: 100%;
+    }
+
+
+    .items{
+        border-bottom: 1px solid rgb(196, 196, 196);
+        padding: 1% 3%;
+        background-color: rgba(255, 255, 255, 0.945);
+    }
+
+
+    .direita{
+        border-right: none;
+    }
+
+    .central{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* Contato */
+
+    .btn-whats{
+        width: 250px;
+    }
+
+    /*  Terciário  */
+
+    .texto{
+        text-align: center;
+        margin-top: 3%;
+    }
+
+    a.fale, h4.fale{
+        text-decoration: none;
+        color: black;
+        font-size: 12pt !important;
+        font-weight: 300;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+
+    /* Conteúdo */
+
+    .margem-acima{
+        margin-top: 30px;
+    }
+
+    .parallax{
+        position: relative;
+        height: 600px;
+        width: 100%;
+        background-image: url(../img/banner.jpg);
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+
+    .parallax-text{
+        position: absolute;
+        top: 50%;
+        text-align: center;
+        width: 100%;
+    }
+
+    .parallax-text h3{
+    text-shadow: 2px 2px black;
+    }
+
+    .containertop{
+        margin-top: 5%;
+        position: relative;
+        margin-bottom: 80px;
+    }
+
+    /* Conteúdo primário */
+
+    #apresentacao{
+        margin-bottom: 10px;
+        z-index: -1;
+    }
+
+    #img-apresentacao{
+        position: relative;
+        top: 10%;
+        left: 0;
+    }
+
+    #texto-apresentacao{
+        text-align: center;
+        margin-top: 3%;
+        margin-left: 3%;
+    }
+
+    .barra{
+        color: #d61911;
+        margin-top: 4%;
+    }
+
+    /* Conteúdo secundário */
+
+    #servicos{
+        height: 120%;
+        text-align: center;
+        background-image: url(../img/escritorio.jpg);
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    #servicos h3{
+        font-size: 2.5em;
+    }
+
+    .titulo{
+        width: 100%;
+    }
+
+
+    .items{
+        border-bottom: 1px solid rgb(196, 196, 196);
+        padding: 1% 3%;
+        background-color: rgba(255, 255, 255, 0.945);
+    }
+
+
+    .direita{
+        border-right: 1px solid rgb(196, 196, 196);
+    }
+
+    .central{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .ass{
+        position: absolute;
+        top: 30%;
+        left: 30%;
+    }
+
+    /* Contato */
+
+    .btn-whats{
+        width: 300px;
+    }
+
+    /*  Terciário  */
+
+    .texto{
+        text-align: center;
+        margin-top: 3%;
+    }
+
+    a.fale, h4.fale{
+        text-decoration: none;
+        color: black;
+        font-size: 12pt !important;
+        font-weight: 300;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+
+    /* Conteúdo */
+
+    .margem-acima{
+        margin-top: 30px;
+    }
+
+    .parallax{
+        position: relative;
+        height: 600px;
+        width: 100%;
+        background-image: url(../img/banner.jpg);
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+
+    .parallax-text{
+        position: absolute;
+        top: 50%;
+        text-align: center;
+        width: 100%;
+    }
+
+    .parallax-text h3{
+    text-shadow: 2px 2px black;
+    }
+
+    .containertop{
+        margin-top: 5%;
+        position: relative;
+        margin-bottom: 80px;
+    }
+
+    /* Conteúdo primário */
+
+    #apresentacao{
+        margin-bottom: 10px;
+        z-index: -1;
+    }
+
+    #img-apresentacao{
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+
+    #texto-apresentacao{
+        text-align: center;
+        margin-top: 3%;
+        margin-left: 3%;
+    }
+
+    .barra{
+        color: #d61911;
+        margin-top: 4%;
+    }
+
+    /* Conteúdo secundário */
+
+    #servicos{
+        height: 120%;
+        text-align: center;
+        background-image: url(../img/escritorio.jpg);
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    .icon{
+        font-size: 5em;
+    }
+
+    .titulo{
+        width: 100%;
+    }
+
+
+    .items{
+        border-bottom: 1px solid rgb(196, 196, 196);
+        padding: 1% 3%;
+        background-color: rgba(255, 255, 255, 0.945);
+    }
+
+
+    .direita{
+        border-right: 1px solid rgb(196, 196, 196);
+    }
+
+    .central{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+
+    /* Contato */
+
+    .btn-whats{
+        width: 300px;
+    }
+
+    /*  Terciário  */
+
+    .texto{
+        text-align: center;
+        margin-top: 3%;
+    }
+
+    a.fale, h4.fale{
+        text-decoration: none;
+        color: black;
+        font-size: 12pt !important;
+        font-weight: 300;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+}

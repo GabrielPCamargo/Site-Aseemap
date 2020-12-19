@@ -1,0 +1,216 @@
+@media (max-width: 767px) {
+
+    /* Barra de navegação */
+
+    .efeito{
+        opacity: 1;
+    }
+
+    .navbar{
+        padding: 15px 5%;
+        background: lightgray;
+        -webkit-box-shadow: 1px 1px 2px rgb(107, 107, 107);
+                box-shadow: 1px 1px 2px rgb(107, 107, 107);
+        position: relative;
+        top: 0;
+        width: 100%;
+        z-index: 1000;
+    }
+
+    .navbar img{
+        width: 40px;
+    }
+
+    .navbar .nav-item a{
+        color: #d61911;
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+
+    .navbar .nav-item a:hover{
+        color: red;
+        background-color: rgb(197, 197, 197);
+    }
+
+    
+    /* Background/Footer */
+
+    .bg-assemap{
+        background-color: #d61911;
+        color: white;
+    }
+
+    .bg-assemap img{
+        display: none;
+    }
+
+    .gpc {
+        color: white;
+        text-decoration: none;
+    }
+
+    .sobre{
+        display: none;
+    }
+
+    .page-footer a:hover{
+        color: #000;
+        text-decoration: none;
+    }
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    /* Barra de navegação */
+
+    .efeito{
+        opacity: 1;
+    }
+
+    .navbar{
+        padding: 15px 5%;
+        background: lightgray;
+        -webkit-box-shadow: 1px 1px 2px rgb(107, 107, 107);
+                box-shadow: 1px 1px 2px rgb(107, 107, 107);
+        position: relative;
+        top: 0;
+        width: 100%;
+        z-index: 1000;
+    }
+
+
+    .navbar .nav-item a{
+        color: #d61911;
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+
+    .navbar .nav-item a:hover{
+        color: red;
+        background-color: rgb(197, 197, 197);
+    }
+
+    /* Background/Footer */
+
+    .bg-assemap{
+        padding-top: 20px;
+        background-color: #d61911;
+        color: white;
+    }
+
+    .gpc {
+        color: white;
+        text-decoration: none;
+    }
+
+    .page-footer a:hover{
+        color: #000;
+        text-decoration: none;
+    }
+
+
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+/* Barra de navegação */
+
+    .efeito{
+        opacity: 1;
+    }
+
+    .navbar{
+        padding: 15px 5%;
+        background: lightgray;
+        -webkit-box-shadow: 1px 1px 2px rgb(107, 107, 107);
+                box-shadow: 1px 1px 2px rgb(107, 107, 107);
+        position: relative;
+        top: 0;
+        width: 100%;
+        z-index: 1000;
+    }
+
+
+    .navbar .nav-item a{
+        color: #d61911;
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+        font-size: 1em;
+    }
+
+    .navbar .nav-item a:hover{
+        color: red;
+        background-color: rgb(197, 197, 197);
+    }
+
+    /* Background/Footer */
+
+    .bg-assemap{
+
+        background-color: #d61911;
+        color: white;
+    }
+
+    .gpc {
+        color: white;
+        text-decoration: none;
+    }
+
+    .page-footer a:hover{
+        color: #000;
+        text-decoration: none;
+    }
+
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+
+/* Barra de navegação */
+
+    .efeito{
+        opacity: 1;
+    }
+
+    .navbar{
+        padding: 15px 5%;
+        background: lightgray;
+        -webkit-box-shadow: 1px 1px 2px rgb(107, 107, 107);
+                box-shadow: 1px 1px 2px rgb(107, 107, 107);
+        position: relative;
+        top: 0;
+        width: 100%;
+        z-index: 1000;
+    }
+
+
+    .navbar .nav-item a{
+        color: #d61911;
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+
+    .navbar .nav-item a:hover{
+        color: red;
+        background-color: rgb(197, 197, 197);
+    }
+
+    /* Background/Footer */
+
+    .bg-assemap{
+
+        background-color: #d61911;
+        color: white;
+    }
+
+    .gpc {
+        color: white;
+        text-decoration: none;
+    }
+
+    .page-footer a:hover{
+        color: #000;
+        text-decoration: none;
+    }
+}
